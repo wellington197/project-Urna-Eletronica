@@ -1,16 +1,19 @@
 body{
     margin: 0;
+
 }
 .urna{
     background-color: #dbd5c9;
     padding: 30px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .tela{
     width:500px;
     height:320px;
-    background: linear-gradient(to right,#e8e8e8,#C1C1C1)
+    background: linear-gradient(to right,#e8e8e8,#C1C1C1);
 }
 
 .teclado{
@@ -19,13 +22,13 @@ body{
 
 }
 
-.teclado-linha{
+.teclado--linha{
     display: flex;
     justify-content: center;
 }
 
-.teclado-botao{
-    width: 700px;
+.teclado--botao{
+    width: 70px;
     height: 40px;
     background-color: #0000;
     color: #fff;
@@ -36,3 +39,5 @@ body{
     margin: 10px;
     cursor: pointer;
     box-shadow: 3px 3px 0px #555;
+    
+}
